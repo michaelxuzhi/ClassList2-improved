@@ -1,0 +1,42 @@
+<!-- <view class="shadow-blur  bg-img bg-mask padding-tb-xlmy " style="background-image: url('http://spider.ws.126.net/2e5f9342e56ec9e2e7a140d4f0d30d01.jpeg')">
+  <view class='padding-xlmy text-white '>
+    <view class='padding-xs text-xl'>
+      <text class='tx1'></text>
+    </view>
+    <view class='padding-xs'>
+      {{daystx}}
+    </view>
+  </view>
+</view> -->
+
+
+
+
+<view class='tx1'>
+  <text class='tx2 tx3'>节数：</text>
+<picker  class='tx2 btn1' bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+  <button style='background: #fff'>第{{btn_txt}}大节</button>
+</picker>
+</view>
+
+
+<van-cell-group>
+  <van-field value="{{cname1}}" label="课程名称：" type="textarea" placeholder="请输入课程名称" autosize border="{{false}}" style="padding: 60rpx " bind:change="onChange2" />
+</van-cell-group>
+
+<van-cell-group>
+  <van-field value="{{tname1}}" label="教师名称：" type="textarea" placeholder="请输入教师名称" autosize border="{{false}}" style="padding: 30rpx " bind:change="onChange3" />
+</van-cell-group>
+
+
+
+<van-cell-group>
+  <van-field value="{{peroid1}}" label="课室：" type="textarea" placeholder="请输入课室号" autosize border="{{false}}" style="padding: 30rpx " bind:change="onChange4" />
+</van-cell-group>
+
+
+
+<view class="vi1">
+  <van-button class='vi2' plain type="primary" bind:click="insert">插入课程表</van-button>
+  <van-button plain type="danger" bind:click="cancel">查看/取消</van-button>
+</view>

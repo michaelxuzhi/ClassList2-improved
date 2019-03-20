@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "van-collapse": "../../vant/collapse/index",
+    "van-collapse-item": "../../vant/collapse-item/index"
+  }
+}

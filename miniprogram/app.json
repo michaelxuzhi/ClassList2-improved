@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Mon/Mon"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "image/main2.png",
+      "selectedIconPath": "image/main1.png"
+
+    },
+    {
+      "pagePath": "pages/Mon/Mon",
+      "text": "星期一",
+      "iconPath": "image/like2.png",
+      "selectedIconPath": "image/like1.png"
+    }]
+  }
+}

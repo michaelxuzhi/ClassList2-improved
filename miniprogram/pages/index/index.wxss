@@ -1,0 +1,38 @@
+.vi1{
+  text-align: center;
+  margin: auto;
+}
+
+.vi2{
+  margin-right: 100rpx;
+}
+
+.vi3{
+  width: 100rpx;
+  display: flex;
+}
+
+.tx1{
+  padding-top: 40rpx;
+  position: relative;
+  display: flex;
+}
+
+.tx2{
+  text-align: center;
+}
+
+.tx3{
+  padding-left: 35rpx;
+  /* padding-right: 80rpx; */ 
+  background: #fff;
+  line-height: 91.2rpx;
+  border-radius: 5rpx;
+
+
+}
+
+.btn1{
+  flex: 80%;
+  
+}
